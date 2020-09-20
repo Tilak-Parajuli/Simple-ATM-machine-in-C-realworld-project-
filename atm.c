@@ -17,7 +17,7 @@ int main(){
         printf("\n\n\t\tMY LORD\n\n");
         printf("1  -  Check your balance \n");
         printf("2  -  Deposit \n ");
-        printf("3  -  Withdraw\n");
+        printf("3  -  Withdraw \n");
         scanf("%d",&option);
         if (option==1){     ///check balanc
             printf("Your balance is : $ %d \n",balance);
