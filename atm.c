@@ -59,11 +59,10 @@ int main(){
         anotherTransaction = 0;
         while(anotherTransaction != 1 && anotherTransaction != 2){
             
-            printf("DO you wanna do another transsactions; \n\n");
+            printf("Do you wanna do another transsactions; \n\n");
             printf("1 - YES, 2 - NO!!");
             scanf("%d",&anotherTransaction);
         }
-
 
     }
     return 0;
